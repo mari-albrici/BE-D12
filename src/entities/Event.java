@@ -24,10 +24,10 @@ public class Event {
 	private String title;
 	private LocalDate date;
 	private String description;
-	private String event_type;
+	private EventType event_type;
 	private int max_event_participants;
 
-	public Event(String title, LocalDate date, String description, String event_type, int max_event_participants) {
+	public Event(String title, LocalDate date, String description, EventType event_type, int max_event_participants) {
 		super();
 		this.title = title;
 		this.date = date;
@@ -69,11 +69,11 @@ public class Event {
 		this.description = description;
 	}
 
-	public String getEvent_type() {
+	public EventType getEvent_type() {
 		return event_type;
 	}
 
-	public void setEvent_type(String event_type) {
+	public void setEvent_type(EventType event_type) {
 		this.event_type = event_type;
 	}
 

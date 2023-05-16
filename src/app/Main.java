@@ -22,15 +22,15 @@ public class Main {
 
 		EventDAO sd = new EventDAO(em);
 		
-//		Event dinner = new Event("Gala Dinner", LocalDate.of(2023, 6, 06), "Beneficienza", "Pubblico", 300);
+//		Event dinner = new Event("Gala Dinner", LocalDate.of(2023, 6, 06), "Beneficienza", EventType.PUBBLICO, 300);
 //		sd.save(dinner);
 //		logger.info("Dinner has been saved");
 //		
-//		Event luncheon = new Event("Hollywood Luncheon", LocalDate.of(2023, 12, 23), "Beneficienza", "Privato", 800);
+//		Event luncheon = new Event("Hollywood Luncheon", LocalDate.of(2023, 12, 23), "Beneficienza", EventType.PRIVATO, 800);
 //		sd.save(luncheon);
 //		logger.info("Luncheon has been saved");
 //		
-//		Event brunch = new Event("BYOD Brunch", LocalDate.of(2023, 6, 06), "Festa privata", "Privato", 150);
+//		Event brunch = new Event("BYOD Brunch", LocalDate.of(2023, 6, 06), "Festa privata", EventType.PRIVATO, 150);
 //		sd.save(brunch);
 //		logger.info("Brunch has been saved");
 		

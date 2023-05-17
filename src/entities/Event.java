@@ -13,6 +13,8 @@ import lombok.ToString;
 
 @Entity
 @Table(name = "events")
+@Getter
+@Setter
 @ToString
 public class Event {
 	
@@ -45,44 +47,5 @@ public class Event {
 		return title + " " + description + " " + "in data" + " " + date;
 	}
 
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	public LocalDate getDate() {
-		return date;
-	}
-
-	public void setDate(LocalDate date) {
-		this.date = date;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public EventType getEvent_type() {
-		return event_type;
-	}
-
-	public void setEvent_type(EventType event_type) {
-		this.event_type = event_type;
-	}
-
-	public int getMax_event_participants() {
-		return max_event_participants;
-	}
-
-	public void setMax_event_participants(int max_event_participants) {
-		this.max_event_participants = max_event_participants;
-	}
 
 }
